@@ -1,36 +1,91 @@
 <!DOCTYPE html>
-<html lang="en">
+
+<html>
 
 <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>CSS</title>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Card </title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <style>
+        * {
+            padding: 0;
+            margin: 0;
+        }
+        
+        .card {
+            top: 20px;
+            margin: auto;
+            border: 1px solid rgb(231, 227, 227);
+            border-radius: 12px;
+            width: 250px;
+            position: relative;
+        }
+        
+        .image {
+            position: relative;
+        }
+        
         img {
-            width: 500px;
-            border: 20px dashed #ffbf00;
-            filter: brightness(50);
+            width: 250px;
+            border-radius: 6px;
         }
         
-        div {
-            height: 100px;
-            width: 100px;
-            background-color: red;
+        .circle {
+            background-color: crimson;
+            width: 40px;
+            height: 40px;
+            text-align: center;
+            border: 1px solid transparent;
+            border-radius: 400px;
+            color: white;
+            padding-top: 2px;
+            position: absolute;
+            top: 5px;
+            right: 5px;
         }
         
-        span {
-            height: 100px;
+        .content {
+            text-align: center;
+            padding: 10px;
+            margin-bottom: 25px;
+        }
+        
+        .lastdiv {
+            text-align: center;
+            background-color: crimson;
+            color: white;
+            border: 1px solid transparent;
+            border-radius: 8px;
             width: 100px;
-            background-color: red;
+            left: 70px;
+            bottom: -13px;
+            position: absolute;
         }
     </style>
 </head>
 
 <body>
-    <img src="https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.caranddriver.com%2Flamborghini%2Fhuracan&psig=AOvVaw0usWQzIKBhFElJ_t4YoGoP&ust=1632306840826000&source=images&cd=vfe&ved=0CAsQjRxqFwoTCND4k_3uj_MCFQAAAAAdAAAAABAD" alt="" />
-    <div></div>
-    <span></span>
+    <div class="card">
+        <div class="image">
+            <img src="https://media.istockphoto.com/photos/eiffel-tour-and-paris-cityscape-picture-id1133449890?k=20&m=1133449890&s=612x612&w=0&h=-bA21xKrn_iX-QbEl25QWDUAWhH1Ga-G5Ka6t_g9y6A=" alt="paris">
+            <div class="circle">
+                11<sup>th</sup>
+            </div>
+        </div>
+
+        <div class="content">
+            <h1>Paris</h1>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nihil non ex pariatur, culpa alias nesciunt ipsum deleniti! Nostrum veniam odit, asperiores fugiat, sapiente non ipsa</p>
+        </div>
+
+
+        <div class="lastdiv">
+            <h3>Visit Paris</h3>
+        </div>
+    </div>
+
 </body>
 
 </html>
