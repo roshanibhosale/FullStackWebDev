@@ -18,8 +18,14 @@
             background-color: black;
             position: relative;
             display: flex;
+            /* flex-direction: row; */
             flex-direction: row;
             justify-content: center;
+            /*work for primary axis*/
+            align-items: center;
+            /*work for secondry axis*/
+            flex-wrap: wrap;
+            /*flex-wrap:wrap-revers*/
         }
         
         .child {
@@ -37,6 +43,13 @@
             <div class="child"></div>
             <div style="background-color: red" class="child"></div>
             <div style="background-color: blueviolet" class="child"></div>
+            <div class="child"></div>
+            <div style="background-color: red" class="child"></div>
+            <div style="background-color: blueviolet" class="child"></div>
+            <div class="child"></div>
+            <div style="background-color: red" class="child"></div>
+            <div style="background-color: blueviolet" class="child"></div>
+
         </div>
     </div>
 </body>
