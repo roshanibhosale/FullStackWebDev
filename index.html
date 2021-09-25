@@ -2,62 +2,23 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>CSS</title>
-    <style>
-        * {
-            padding: 0;
-            margin: 0;
-            box-sizing: border-box;
-            font-family: Metropolis;
-            margin: 4px;
-        }
-        
-        h2 {
-            padding: 5px;
-            color: #f1f1f1;
-            background-color: #ffbf00;
-        }
-        
-        h2:hover {
-            background-color: crimson;
-            cursor: pointer;
-        }
-        
-        div::selection {
-            background: lime;
-        }
-        
-        input:focus {
-            background-color: pink;
-            color: red;
-            font-size: 2rem;
-        }
-        
-        h2::after {
-            content: "I'm after";
-            font-size: 0.5rem;
-            color: red;
-            position: relative;
-        }
-        
-        h2::before {
-            content: "I'm before";
-            font-size: 0.5rem;
-            color: cyan;
-            position: relative;
-        }
-    </style>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/css/styles.css">
+    <title>To-Do List</title>
 </head>
 
 <body>
-    <h2>I'm a heading</h2>
-    <div>
-        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Corporis cupiditate excepturi dolores eveniet quaerat at a tempora neque ea ipsam voluptatum pariatur sequi accusamus hic distinctio, esse quo beatae numquam.
-    </div>
-    <input type="text" />
+    <header></header>
+    <footer>
+        <div>
+            <a href="https://github.com/roshanibhosale">Roshani</a>
+            <img class="social" src="./assets/images/instagram.png" alt="instagram">
+            <img class="social" src="./assets/images/github.png" alt="github">
+            <img class="social" src="./assets/images/linkedin.png" alt="linkedin">
+        </div>
+    </footer>
 </body>
 
 </html>
