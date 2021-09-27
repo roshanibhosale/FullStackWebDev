@@ -14,6 +14,73 @@ header {
     height: 300px;
     background-size: cover;
     background-position: center;
+    position: relative;
+}
+
+.container {
+    height: 40%;
+    width: 50%;
+    /* border: 1px solid yellow; */
+    position: absolute;
+    top: 25%;
+    left: 35%;
+}
+
+div .first {
+    color: yellow;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 0;
+    margin: 3px;
+}
+
+.combine {
+    background-color: lightgray;
+    padding: 3px;
+}
+
+.insertTask {
+    display: flex;
+    flex-grow: initial;
+    justify-content: space-between;
+    padding: 17px 0;
+}
+
+.links {
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid rgb(221, 210, 210);
+    border-radius: 10px;
+    padding: 4px;
+    margin: 7px 0;
+    background-color: white;
+}
+
+.tasks {
+    display: flex;
+    justify-content: start;
+    border: 1px solid rgb(221, 210, 210);
+    border-radius: 10px;
+    padding: 4px;
+    background-color: white;
+}
+
+input {
+    width: 100%;
+    border: none;
+}
+
+.first button {
+    background-color: white;
+}
+
+button {
+    border: none;
+    background-color: white;
+    color: blue;
+    font-size: 0.9rem;
+    width: 10%;
 }
 
 
